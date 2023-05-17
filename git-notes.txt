@@ -10,6 +10,8 @@ git commit -m 'Message Update'
 git push origin (directory)
     - This then takes your commits, (whatever you've commited to memory), and pushes them to github online!
 
+git config user.email "email"
+    - This changes the email address for your github edits. Whenever you make an edit it'll list ur name and email. 
 
 Soon to be figured out
 How to pull from github?
