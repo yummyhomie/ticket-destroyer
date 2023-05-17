@@ -1,0 +1,15 @@
+git clone https://github.com/yummyhomie/ticket-extirpator.git
+    - This makes it so that you "clone" everything that's on github to your local computer
+
+git add .
+    - This "adds" any new changes or files that you made
+
+git commit -m 'Message Update'
+    - This then takes whatever you've "added" and commits them to memory! It'll only save what you tell it to (which is why you wanna hit add everytime)
+
+git push origin (directory)
+    - This then takes your commits, (whatever you've commited to memory), and pushes them to github online!
+
+
+Soon to be figured out
+How to pull from github?
