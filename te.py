@@ -1,24 +1,16 @@
 import pyautogui, time
 
-t_end = time.time() + 10
-while time.time() < t_end:
-        print('Bruh')
+time.sleep(5) #Makes the program sleep for X seconds before starting
 
+pyautogui.write('hello world. ')
+pyautogui.keyDown('shift')
+pyautogui.write('hello this should be all caps1 ')
+pyautogui.keyUp('shift')
 
+time.sleep(10)
 
-#distance = 200
-#while distance > 0:
-#        pyautogui.drag(distance, 0, duration=0.5)   # move right
-#        distance -= 10
-#        pyautogui.drag(0, distance, duration=0.5)   # move down
-#        pyautogui.drag(-distance, 0, duration=0.5)  # move left
-#        distance -= 5
-#        pyautogui.drag(0, -distance, duration=0.5)  # move up
-
-
-
-
-
+pyautogui.write('PREPARE TO DIE')
+quit()
 
 
 
