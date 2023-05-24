@@ -1,15 +1,16 @@
-import pyautogui, time
+import pyautogui
+import time
 
-time.sleep(5) #Makes the program sleep for X seconds before starting
+time.sleep(5)
 
-pyautogui.write('hello world. ')
-pyautogui.keyDown('shift')
-pyautogui.write('hello this should be all caps1 ')
-pyautogui.keyUp('shift')
+pyautogui.write('Hello!')
+pyautogui.press('space')
 
 time.sleep(10)
 
-pyautogui.write('PREPARE TO DIE')
+pyautogui.write('PREPARE TO DIE!')
+pyautogui.press('enter')
+
 quit()
 
 
