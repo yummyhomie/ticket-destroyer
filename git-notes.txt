@@ -13,6 +13,6 @@ git push origin (directory)
 git config user.email "email"
     - This changes the email address for your github edits. Whenever you make an edit it'll list ur name and email. 
 
-Soon to be figured out
-How to pull from github?
+git pull
+    - This takes your current local directory and updates it to match the one that is on github.
 
