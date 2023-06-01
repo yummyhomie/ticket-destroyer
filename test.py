@@ -1,11 +1,12 @@
 import msvcrt, time
 
+def countdown(seconds):
+    for i in range(seconds, 0, -1):
+        print(f"Program will start in {i} seconds...")
+        time.sleep(1)
+
 def script_1():
     # Code for script 1
-    def countdown(seconds):
-        for i in range(seconds, 0, -1):
-            print(f"Program will start in {i} seconds...")
-        time.sleep(1)
 
     countdown_duration = 6 # Set the countdown duration in seconds
     countdown(countdown_duration) # Display the message and countdown
