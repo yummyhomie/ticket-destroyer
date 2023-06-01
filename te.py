@@ -25,6 +25,7 @@ def dp_menu():
     print("[z] to exit")
 
 dp_menu()
+
 choice = msvcrt.getch().decode("utf-8")
 
 if choice == "1":
