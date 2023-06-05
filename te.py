@@ -16,12 +16,18 @@ def pg2():
     pyautogui.write('Student was needing help logging into their myUVU portal. FERPA verified them and set up their authentication methods. I was then able to show them how to reset their password. They were then able to log in!')
 
 def pg3():
+    countdown_duration = 6
+    countdown(countdown_duration)
+    pyautogui.write('Student recently changed their phone number and was wanting to update her authentication methods. FERPA verified her and got that phone number updated to receive verification texts!')
+    
+def pg4():
     quit()
 
 def dp_menu():
     print("Select one of the following:")
     print("[1]")
     print("[2]")
+    print("[3]")
     print("[z] to exit")
 
 dp_menu()
@@ -32,8 +38,10 @@ if choice == "1":
     pg1()
 elif choice == "2":
     pg2()
-elif choice == "z":
+elif choice == "3":
     pg3()
+elif choice == "z":
+    pg4()
 else: print('Bruh. Try again. ')
 
 
