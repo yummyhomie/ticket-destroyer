@@ -21,6 +21,14 @@ def pg3():
     pyautogui.write('Student recently changed their phone number and was wanting to update her authentication methods. FERPA verified her and got that phone number updated to receive verification texts!')
     
 def pg4():
+    countdown_duration = 6
+    countdown(countdown_duration)
+    pyautogui.write('What we can do is go ahead and set up your authentication method. This will enable you to reset your own password upon logging in. Before I can do that however I do need you to verify the following.')
+    pyautogui.press(shift)
+    pyautogui.press(enter)
+    pyautogui.write('Placeholder')
+
+def pg5():
     quit()
 
 def dp_menu():
@@ -28,6 +36,7 @@ def dp_menu():
     print("[1]")
     print("[2]")
     print("[3]")
+    print("[4]")
     print("[z] to exit")
 
 dp_menu()
@@ -40,8 +49,10 @@ elif choice == "2":
     pg2()
 elif choice == "3":
     pg3()
-elif choice == "z":
+elif choice == "4":
     pg4()
+elif choice == "z":
+    pg5()
 else: print('Bruh. Try again. ')
 
 
