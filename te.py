@@ -23,20 +23,30 @@ def pg3():
 def pg4():
     countdown_duration = 6
     countdown(countdown_duration)
-    pyautogui.write('What we can do is go ahead and set up your authentication method. This will enable you to reset your own password upon logging in. Before I can do that however I do need you to verify the following.')
-    pyautogui.press(shift)
-    pyautogui.press(enter)
-    pyautogui.write('Placeholder')
-
+    pyautogui.write('I do need you to verify the following.')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Name')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Date of Birth')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Address')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Email Address')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Major Declared')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('- Previous High School attended')
+    pyautogui.keyDown('shift'), pyautogui.press('enter'), pyautogui.keyUp('shift')
+    pyautogui.write('Then allow me a few moments to ')
 def pg5():
     quit()
 
 def dp_menu():
     print("Select one of the following:")
-    print("[1]")
-    print("[2]")
-    print("[3]")
-    print("[4]")
+    print("[1] 'Login Help, They reset password'")
+    print("[2] 'Login Help, showed where to reset passwrd'")
+    print("[3] 'Updating Azure Authentication Methods'")
+    print("[4] 'I need you to verify the following'")
     print("[z] to exit")
 
 dp_menu()
