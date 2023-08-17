@@ -18,7 +18,7 @@ def pg2():
 def pg3():
     countdown_duration = 6
     countdown(countdown_duration)
-    pyautogui.write('Student recently changed their phone number and was wanting to update her authentication methods. FERPA verified her and got that phone number updated to receive verification texts!')
+    pyautogui.write('Student recently changed their phone number and was wanting to update their authentication methods. FERPA verified them and updated their authentication methods in order to log in!')
     
 def pg4():
     countdown_duration = 6
@@ -44,7 +44,7 @@ def pg5():
 def dp_menu():
     print("Select one of the following:")
     print("[1] 'Login Help, They reset password'")
-    print("[2] 'Login Help, showed where to reset passwrd'")
+    print("[2] 'Login Help, showed where to reset password'")
     print("[3] 'Updating Azure Authentication Methods'")
     print("[4] 'I need you to verify the following'")
     print("[z] to exit")
